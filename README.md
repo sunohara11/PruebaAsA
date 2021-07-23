@@ -1,2 +1,0 @@
-# PruebaAsA
-Proyecto de prueba
