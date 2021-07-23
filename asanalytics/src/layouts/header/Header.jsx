@@ -12,8 +12,8 @@ function Copyright() {
     return (
       <Typography variant="body2" color="textSecondary" align="center">
         {'Copyright © '}
-        <Link color="inherit" href="https://material-ui.com/">
-          Your Website
+        <Link color="inherit" href="#">
+          PruebaAsA
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}
@@ -54,20 +54,22 @@ function Copyright() {
         <AppBar position="static" color="default" elevation={0} className={classes.appBar}>
           <Toolbar className={classes.toolbar}>
             <Typography variant="h6" color="inherit" noWrap className={classes.toolbarTitle}>
-              Company name
+              <Link href="home">
+              AsAnalytics
+              </Link>
             </Typography>
             <nav>
-              <Link variant="button" color="textPrimary" href="#" className={classes.link}>
-                Features
+              <Link variant="button" color="textPrimary" href="Checkout" className={classes.link}>
+                Vender
               </Link>
-              <Link variant="button" color="textPrimary" href="#" className={classes.link}>
-                Enterprise
+              <Link variant="button" color="textPrimary" href="Purchase" className={classes.link}>
+                Comprar
               </Link>
-              <Link variant="button" color="textPrimary" href="#" className={classes.link}>
+              <Link variant="button" color="textPrimary" href="Home" className={classes.link}>
                 Support
               </Link>
             </nav>
-            <Button href="#" color="primary" variant="outlined" className={classes.link}>
+            <Button href="/login" color="primary" variant="outlined" className={classes.link}>
               Login
             </Button>
           </Toolbar>
